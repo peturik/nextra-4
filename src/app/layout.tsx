@@ -48,7 +48,7 @@ export default async function RootLayout({
             />
           }
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/peturik/blog/tree/main/data/blog"
+          docsRepositoryBase="https://github.com/peturik/nextra-4/edit/main"
           editLink="Edit this page on GitHub"
           sidebar={{ defaultMenuCollapseLevel: 1, autoCollapse: true }}
           footer={footer}
